@@ -43,7 +43,5 @@ app.use((err, req, res, next) => {
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`🚀 Server running on http://localhost:${PORT}`);
-  import('open').then((open) => {
-    open.default(`http://localhost:${PORT}`);
-  }).catch(err => console.error('Failed to open browser:', err));
+
 });
