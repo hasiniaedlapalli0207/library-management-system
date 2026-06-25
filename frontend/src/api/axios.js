@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'library-management-system-production-b405.up.railway.app',
 });
 
 // Request interceptor — attach JWT token
